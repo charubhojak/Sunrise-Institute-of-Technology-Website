@@ -368,7 +368,6 @@ body {
 
 .latest-div {
     height: 500px;
-    /* width: 30%; */
     border: 2px solid #ccc;
     background-color: rgb(211, 221, 168);
 }
@@ -388,12 +387,10 @@ body {
 .AP-div {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
 }
 
 .Announcement-div {
     height: 300px;
-    /* width: 30%; */
     background-color: rgb(211, 221, 168);
     border: 2px solid #ccc;
 }
@@ -412,7 +409,6 @@ body {
 
 .PMRF-div {
     height: 200px;
-    /* width: 30%; */
     background-color: rgb(211, 221, 168);
     border: 2px solid #ccc;
 }
@@ -471,7 +467,6 @@ body {
 }
 
 .Acad-footer a {
-    /* height: 100px; */
     width: 100%;
     color: rgb(55, 54, 54);
     display: flex;
@@ -503,15 +498,7 @@ body {
 
 .adm-navbar a {
     margin-left: 25px;
-}
-
-.adm-img-div  {
-    /* background-size: cover; */
-    /* width: 100%;
-    height: auto;
-    display: block; */
-    /* max-width: 1400px; */
-}    
+}   
 
 .adm-img-div img {
     width: 100%;
