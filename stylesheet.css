@@ -30,7 +30,8 @@ body {
 
 .hala-div {
     height: 30px;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     border: 1px solid rgb(166, 83, 83);
     border-radius: 15px;
     display: flex;
@@ -87,7 +88,8 @@ body {
 }
 
 .bitimg {
-    width: 990px;
+    width: 100%;
+    max-width: 990px;
     height: 450px;
     border-radius: 20px;
     background-image: url("BIT .jpg");
@@ -149,7 +151,8 @@ body {
 
 .nirf {
     height: 295px;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     background-image: url("NIRF 2.jpg");
     background-size: cover;
     display: block;
@@ -732,4 +735,79 @@ body {
 
 .further-div a {
     margin-left: 30px;
+}
+
+
+/* Responsive Design */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+
+    .navbar-div {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .hala-div {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .PL-div {
+        margin-left: 0;
+    }
+
+    .bit {
+        font-size: 40px;
+    }
+
+    .bitimg {
+        width: 100%;
+        height: 250px;
+    }
+
+    .para-one {
+        font-size: 18px;
+        word-spacing: normal;
+    }
+
+    .focus,
+    .ranking,
+    .welcome {
+        font-size: 25px;
+    }
+
+    .nirf {
+        width: 100%;
+        height: auto;
+    }
+
+    .ranktext {
+        gap: 20px;
+    }
+
+    .footerdiv,
+    .three,
+    .whole-div,
+    .par-div {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .one,
+    .oven,
+    .two {
+        width: 100%;
+    }
+
 }
