@@ -6,12 +6,19 @@ body {
     margin-right: 10px;
 }
 
+.main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
 .navbar-div {
     height: 70px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .UB-div {
@@ -92,11 +99,13 @@ body {
 
 .bitimg {
     width: 100%;
-    max-width: 990px;
+    max-width: 1000px;
     height: 450px;
+    margin: 0 auto;
     border-radius: 20px;
     background-image: url("BIT .jpg");
     background-size: cover;
+    background-position: center;
     border: 2px solid white;
 }
 
